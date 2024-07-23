@@ -1,7 +1,8 @@
-public class Cliente
+public class Pessoa
 {
       private string CPF;
       private Int64 id;
+      public string nome;
 
       public void SetNome (string nome)
       {
@@ -13,5 +14,3 @@ public class Cliente
         return CPF;
       }
 }
-
-
